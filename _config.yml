@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Mason Auten/ Third Year Political Science PhD Student"
+title                    : "Mason Auten"
 title_separator          : "-"
 name                     : &name "Mason Auten"
 description              : &description "Political Science PhD Student at Vanderbilt University"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,7 +23,7 @@ repository               : "Mason-auten/Mason-auten.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : ""
   name             : "Mason Auten"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in political science. I study statebuilding, war, and political economy of conflict using formal models and historical data."
@@ -90,8 +90,6 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  working_papers:
-    title: 'Working Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -226,15 +224,19 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
   portfolio:
     output: false
     permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
+  papers:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 # These settings control how pages and collections are included in the site
@@ -292,6 +294,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      #_papers
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 
 # Sass/SCSS
