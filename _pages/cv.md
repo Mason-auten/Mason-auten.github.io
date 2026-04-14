@@ -54,7 +54,7 @@ Location
 
 ## Working Papers
 
-<ul>{% for post in site.publications reversed %}
+<ul>{% for post in site.papers reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
