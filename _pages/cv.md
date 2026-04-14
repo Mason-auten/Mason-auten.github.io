@@ -73,7 +73,7 @@ Location
   
 ## Workshops and Seminars
 
-* Conflict Workshop, Vanderbilt University — Discussant, 2023–present.  
+* Conflict Workshop, Vanderbilt University — Discussant and Presenter, 2023–present.  
 * IR Graduate Student Workshop — Presenter, 2024–present.
 * Organizer, Online Peace Science Colloquium (OPSC), 2024–present.  
 
